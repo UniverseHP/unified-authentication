@@ -1,0 +1,17 @@
+server:
+  port: 9602
+spring:
+  profiles:
+    active: test
+  application:
+    name: auth-member
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+mars:
+  data:
+    mongodb:
+      uri: mongodb://1.15.112.44:6001
+      database: ops

@@ -11,10 +11,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class OpsGatewayApplication {
+public class AuthGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OpsGatewayApplication.class, args);
+        SpringApplication.run(AuthGatewayApplication.class, args);
     }
 
 }

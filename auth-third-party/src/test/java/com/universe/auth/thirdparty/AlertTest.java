@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @description
  * @date 2022/1/14 10:37
  */
-@SpringBootTest(classes = ThirdPartyApplication.class)
+@SpringBootTest(classes = AuthThirdPartyApplication.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 public class AlertTest {
 

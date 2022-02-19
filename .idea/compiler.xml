@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth-third-party" />
         <module name="auth-gateway" />
+        <module name="auth-member" />
         <module name="auth-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-common" target="1.8" />
       <module name="auth-gateway" target="1.8" />
+      <module name="auth-member" target="1.8" />
       <module name="auth-third-party" target="1.8" />
       <module name="unified-authentication" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-common" options="-parameters" />
       <module name="auth-gateway" options="-parameters" />
+      <module name="auth-member" options="-parameters" />
       <module name="auth-third-party" options="-parameters" />
     </option>
   </component>
