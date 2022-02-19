@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: auth-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  third:
+    sms:
+  mail:
+    protocol: smtp
+    port: 465
+    host: smtp.qq.com
+    from: 2446268838@qq.COM
+    title: UniverseHP
+    username: 2446268838@qq.COM
+    # 授权码
+    password: ifwrwbfurygsdife
+    default-encoding: utf-8
+    properties.mail.smtp.ssl.enable: true
+    properties.mail.smtp.ssl.required: true
+    #端口号465或587
+    properties.mail.smtp.port: 465
+
+server:
+  port: 9610
+  #address: 127.0.0.1
+  tomcat:
+    uri-encoding: UTF-8

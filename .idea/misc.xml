@@ -10,14 +10,11 @@
         <option value="$PROJECT_DIR$/ops-third-party/pom.xml" />
         <option value="$PROJECT_DIR$/ops-common/pom.xml" />
         <option value="$PROJECT_DIR$/ops-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-common/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-third-party/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/auth-common/pom.xml" />
-        <option value="$PROJECT_DIR$/auth-third-party/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
