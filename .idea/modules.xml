@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-common/auth-common.iml" filepath="$PROJECT_DIR$/auth-common/auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-gateway/auth-gateway.iml" filepath="$PROJECT_DIR$/auth-gateway/auth-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-third-party/auth-third-party.iml" filepath="$PROJECT_DIR$/auth-third-party/auth-third-party.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/unified-authentication.iml" filepath="$PROJECT_DIR$/.idea/unified-authentication.iml" />
+    </modules>
+  </component>
+</project>
